@@ -32,7 +32,7 @@ router.set('views', './views');
 
 router.get('/', function (req, res) {
   res.render('index', {
-    target: req.query.target || 'https://nodegoat.herokuapp.com'
+    target: req.query.target || 'http://localhost:4000'
   })
 })
 
